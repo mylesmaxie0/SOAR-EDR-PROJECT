@@ -14,4 +14,16 @@ Defining automated response actions, including:
 - 	Isolating compromised hosts to prevent lateral movement.
 - Killing suspicious processes before they execute malicious payloads.
 
-  
+#
+SOAR (Security Orchestration, Automation, and Response)
+
+- Orchestration: Integrates security tools (SIEM, firewalls, Anti-virus) for seamless communication.
+- Automation: Reduces security analyst workload by handling repetitive tasks.
+- Response: Uses playbooks for faster, consistent incident handling.
+
+EDR (Endpoint Detection and Response)
+
+- Real-Time Monitoring: Detects suspicious endpoint activities (malware, unauthorized access).
+- Threat Detection: Uses machine learning & behavioral analysis to spot known/unknown threats.
+- Incident Investigation: Provides detailed logs for forensic analysis.
+- Automated Responses: Can isolate compromised endpoints and kill malicious processes.
