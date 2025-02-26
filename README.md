@@ -27,3 +27,16 @@ EDR (Endpoint Detection and Response)
 - Threat Detection: Uses machine learning & behavioral analysis to spot known/unknown threats.
 - Incident Investigation: Provides detailed logs for forensic analysis.
 - Automated Responses: Can isolate compromised endpoints and kill malicious processes.
+#
+
+### Playbook Workflow
+
+Playbook Objective: 
+
+- Send a Slack Message
+- Send an Email - The email will contain Time, Endpoint Name, Source IP, Process, Command Line, File Path, Sensor ID
+- Generate a user prompt - Isolate the endpoint. (Yes/No)
+- If YES - Lima Charlie will isolate the endpoint.
+- If No - Lima Charlie will not isolate.
+
+![image](https://github.com/user-attachments/assets/759b58dd-938a-4d70-9c64-c982e06036b7)
